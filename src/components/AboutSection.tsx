@@ -71,23 +71,6 @@ export default function AboutSection() {
                   ))}
                 </ul>
               </div>
-
-              <div className="flex flex-wrap items-center gap-4 border-t border-border pt-4">
-                <a
-                  href={`mailto:${profile.email}`}
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-fg hover:text-accent transition"
-                >
-                  <Mail className="h-4 w-4 text-accent" />
-                  {profile.email}
-                </a>
-                <a
-                  href={`tel:${profile.phone.replace(/\s/g, "")}`}
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-fg hover:text-accent transition"
-                >
-                  <Phone className="h-4 w-4 text-accent" />
-                  {profile.phone}
-                </a>
-              </div>
             </div>
           </div>
         </div>
