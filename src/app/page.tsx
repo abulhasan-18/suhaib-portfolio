@@ -3,7 +3,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
-import ExperienceSection from "../components/ExperienceSection";
 import CredentialsSection from "../components/CredentialsSection";
 import ReviewsSection from "../components/ReviewsSection";
 import ContactSection from "../components/ContactSection";
@@ -17,7 +16,6 @@ export default function Page() {
       <Hero />
 
       <AboutSection />
-      {/* <ExperienceSection /> */}
       <CareerJourneySection />
       <CredentialsSection />
       <ReviewsSection />

@@ -4,7 +4,7 @@ import SectionHeading from "./ui/SectionHeading";
 
 export default function CredentialsSection() {
   return (
-    <section id="credentials" className="mx-auto max-w-6xl px-6 pt-16">
+    <section id="qualifications" className="mx-auto max-w-6xl px-6 pt-16">
       <SectionHeading
         eyebrow="Qualifications"
         title="Certifications, awards, and education."

@@ -98,7 +98,7 @@ export default function CareerJourneySection() {
   const contentW = items.length * CARD_W + (items.length - 1) * GAP + PAD_RIGHT;
 
   return (
-    <section id="career-journey" className="mx-auto max-w-6xl px-6 pt-16">
+    <section id="projects" className="mx-auto max-w-6xl px-6 pt-16">
       <SectionHeading
         eyebrow="Accomplishmed Projects"
         title="Accomplished Projects"

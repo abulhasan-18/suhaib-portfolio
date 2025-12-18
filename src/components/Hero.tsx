@@ -139,7 +139,7 @@ export default function Hero() {
                         alt={profile.name}
                         fill
                         priority
-                        className="object-contain scale-150 p-2"
+                        className="object-contain scale-175 p-2"
                       />
                     </div>
                   </div>
